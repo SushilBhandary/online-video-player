@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #040404;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.land {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 50%;
+    width: 60%;
+    padding: 40px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    background: #40A2D8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #0B60B0;
+    color: #fcfafa;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label{
+    font-size: 45px;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+    font-size:larger;
+    padding: 0 30px 0 0;
+    border-radius: 10px;
+    border: 1px solid black; 
+    height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputbox> button{
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
+
+.inputbox{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.videopage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttomsBar{
+    width: 25vw;
+    background-color: #040404;
+    color: #fcfafa;
+
+}
+
+.videoButtom{
+    margin: 15px;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #180730;
+    height: 70vh;
+    overflow:scroll;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoBtm {
+    margin-bottom: 7px;
+    background-color: #311755;
+    color: #fcfafa;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.videoBtm:hover{
+    background-color: #5e319e;
+}
+
+.buttomsHeader{
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.player{
+    width: 75vw;
+    display: grid;
+    place-items: center;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: #040404;
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #fcfafa;
+    padding: 10px;
+}
+
+.video{
+    border-radius: 15px;
+    color: #fcfafa;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #352547; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #483564; 
+}
+
